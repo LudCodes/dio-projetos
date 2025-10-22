@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxograma_variaveis"/>
+        <attribute name="authors" value="ludmila"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-28 08:11:05 "/>
+        <attribute name="created" value="bHVkbWlsYTtMVURNSUxBOzIwMjUtMDgtMjg7IjA4OjAyOjEyICI7MjQ1OQ=="/>
+        <attribute name="edited" value="bHVkbWlsYTtMVURNSUxBOzIwMjUtMDgtMjg7IjA4OjExOjA1ICI7MTsyNTY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, soma" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="soma" expression="(nota1+nota2+nota3+nota4)"/>
+            <output expression="soma" newline="True"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

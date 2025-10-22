@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxograma_expressoes-relacionais"/>
+        <attribute name="authors" value="ludmila"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-28 08:25:13 "/>
+        <attribute name="created" value="bHVkbWlsYTtMVURNSUxBOzIwMjUtMDgtMjg7IjA4OjIyOjM2ICI7MjQ2Nw=="/>
+        <attribute name="edited" value="bHVkbWlsYTtMVURNSUxBOzIwMjUtMDgtMjg7IjA4OjI1OjEzICI7MTsyNTcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <assign variable="b" expression="1"/>
+            <assign variable="c" expression="3"/>
+            <output expression="b==b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

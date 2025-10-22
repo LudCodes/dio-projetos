@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fluxograma_tomada-de-decisoes"/>
+        <attribute name="authors" value="ludmila"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-28 08:34:39 "/>
+        <attribute name="created" value="bHVkbWlsYTtMVURNSUxBOzIwMjUtMDgtMjg7IjA4OjI2OjU5ICI7MjQ3Ng=="/>
+        <attribute name="edited" value="bHVkbWlsYTtMVURNSUxBOzIwMjUtMDgtMjg7IjA4OjM0OjM5ICI7MTsyNTgx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <input variable="numero"/>
+                </then>
+                <else>
+                    <output expression="&quot;Nossa loja s&#243; aceita compras via cart&#227;o. Sentimos muito!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
